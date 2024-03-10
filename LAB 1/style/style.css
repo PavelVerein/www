@@ -1,0 +1,74 @@
+@import url('./main.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 17px 0;
+  /* маргин для хедера не надо */
+}
+
+.header__container,
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav__item {
+  padding: 10px 20px;
+}
+
+.nav__link {
+  color: #2E2E2E;
+}
+
+.nav__link:hover {
+  color: red;
+  transition: all 0.3s;
+}
+
+.main {
+  padding-bottom: 135px;
+}
+
+.main__container {
+  text-align: center;
+  padding: 89px 0 113px;
+}
+
+.main__title {
+  margin-bottom: 20px;
+  font: 50px 'Lora', sans-serif;
+}
+
+.main__subtitle{
+  font: 17px 'Oxygen', sans-serif;
+  color: #2E2E2E;
+  opacity: 0.63;
+}
+
+.main__image {
+  width: 100%;
+  margin-bottom: 140px;
+}
+
+.container__text {
+  margin-bottom: 20px;
+  font: 24px 'Oxygen', sans-serif;
+  color: #101315;
+}

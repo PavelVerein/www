@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url('../images/bunnerlogo.jpg');
+    background-size: cover;
+}
+
+.header {
+    padding: 17px 0;
+    /* маргин для хедера не надо */
+}
+
+.header__container,
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav__item {
+    padding: 10px 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 12px 'Oxygen', sans-serif;
+}
+
+.nav__link:hover {
+    color: red;
+    transition: all 0.3s;
+}
+
+.footer {
+    /* маргины не надо так делать */
+    background-image: url(../images/footer-background.png);
+    padding: 17px 0;
+}
+
+.footer__logo-svg_white {
+    color: #FFFFFF;
+}
+
+.nav__link_ghost {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
